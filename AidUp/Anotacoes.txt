@@ -1,0 +1,49 @@
+Classes que preciso para criar os topicos 
+
+tipos de topicos 
+
+
+artigo 
+comunicado 
+devocional 
+enquete 
+evento
+lembrete 
+post
+Programacao
+tarefa
+
+
+proximas tarefas 
+
+		criar as classes models para cada tipo de post 
+		criar as classes repostitory para cada tipo de post 
+		criar as classe controllers para cada tipo de post (foi criado somente um controller para todos topicos) 
+
+		criar as informacoes de database, collection no appsettings
+		criar os parametros na classe settings 
+		criar a injeção de dependencias no program.cs
+
+implementar as classe de models
+	determinar parametros para cada tipo de topico 
+implementar as classe de repository
+implementar a classe de topicocontroller 
+
+
+adicionar um campo para usuario com o tipo de usuario, se visitante, membro, colaborador, lider 
+
+
+validar a possibilidade de ter uma collections com dados de lista de titulos para função, titulos para tipo de usuario.
+
+
+
+
+campos que precisam ter em todos as classes
+        public string Iditem { get; set; }
+        public string IdAutor { get; set; }
+        public string IdInstituicao { get; set; }   
+		 public string UrlMidia { get; set; }    
+
+
+
+ https://github.com/thiagobodruk/biblia/tree/master/json
